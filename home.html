@@ -7,70 +7,100 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<style>
-    body{
-        background-image: url(./img/background.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover; 
-    }
-</style>
 <body>
-        <!-- HEADER -->
-    <header class="header">
-            <div class="navbar">
-                <div class="header__wrapper">
-                    <h1>LO</h1>
-                    <nav>
-                        <ul class="header__nav">
-                            <li><a href="#about">ABOUT</a></li>
-                            <li><a href="#article">ARTICLES</a></li>
-                            <li><a href="#sub">SUBSCRIBE</a></li>
-                        </ul>
-                    </nav>
-                    <div class="toggle__menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
+
+<!--NAV BAR WITH TITLE AND HOMEBANNER -->
+<header class="homeBanner">
+    <div class="homeContainer">
+    <!--HEADER-->
+    <div class="header">
+         <div class="header__wrapper">
+            <h1>LO</h1>
+            <nav>
+                <ul class="header__nav">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#article">ARTICLES</a></li>
+                    <li><a href="#sub"><span class="borderrr">SUBSCRIBE</span></a></li>
+                </ul>
+            </nav>
+            <div class="toggle__menu">
+                <span></span>
+                <span></span>
             </div>
-        </header>
+        </div>
+    </div>
 
-
-
-<section class="homeBanner">
-    <div class="container">
-        <h1>LOMBOK</h1>
+    <section class="HomePage" id="home">
         <div class="homebannerContent">
-
+            <div class="homebannerContent__wrapper">
+            <h1>LOMBOK</h1>
+            <h2>HOLISTIC HEALTH</h2>
+            <div class="line"></div>
         </div>
-        </div>
-
-</section>
-
-
-
-<section class="aboutBanner" id="about">
-    <div class="container">
-        <div class="aboutbannerCOntent">
-            <p>testing about</p>
-        </div>  
+         </div>
+    </section>
 </div>
-</section>
+</header>
 
 
+
+<!-- ARTICLE BANNER -->
 <section class="articlesBanner" id="article">
-    <div class="container">
-    <p>testing ARTICLES</p>
+
+    <div class="bannerContainer">
+        <div class="aboutbanner__wrapper">
+            <h1>LATEST ARTICLES</h1>
+            <div class="cardLinya"></div>
+        </div>
+
+            <div class="card__wrapper">
+            <div class="card">
+                <img src="./img/card1.jpg" alt="">
+            <div class="card--content">
+                <div class="cardLine"></div>
+                <p>How to use mindfulness in your everyday life</p>
+            </div>
+            </div>
+
+
+            <div class="card">
+                <img src="./img/card2.jpg" alt="">
+            <div class="card--content">
+                <div class="cardLine"></div>
+                <p>What are the best walking meditations</p>
+            </div>
+            </div>
+
+
+            <div class="card">
+                <img src="./img/card3.jpg" alt="">
+            <div class="card--content">
+                <div class="cardLine"></div>
+                <p>How to go into the deep mind of hope</p>
+            </div>
+        </div>
+        </div>
+    </div>
 </div>
 </section>
 
 
-
-<section class="subscribeBanner" id="sub">
-    <div class="container">
-    <p>tesitng sub</p>
-</div>
+<!--ABOUT BANNER -->
+<section class="aboutBanner" id="about">
+    <div class="aboutContianer">
+        <div class="about__wrapper">
+            <div class="aboutpic">
+           <img src="./img/aboutimg.jpg" alt="">
+        </div>
+           <div class="bannerContainer">
+        <div class="aboutRight">
+            <h1>ABOUT</h1>
+            <div class="aboutLine"></div>
+            <p>Since 1993 we have roamed is a blog from the earliest years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+                </div>
+                 </div>
+                </div>
+    </div>
 </section>
 
 
@@ -78,11 +108,54 @@
 
 
 
+<!-- SUBSCRIBE BANNERR -->
+<section class="subcribeBanner" id="sub">
+    <div class="container">
+        <div class="sub__wrapper">
+        <div class="subscribe_content">
+            <h1>SUBSCRIBE</h1>
+            <p>Sign-up to our newsletter</p>
+ 
+            <div class="sub__form">
+               <form action="">
+                <input type="text" placeholder="Your email" required="required"> 
+                <button>SUBMIT</button>
+
+                </form>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<!--FOOTER END-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="foot__soc">
+                <ul class="paa__soc">
+                    <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+                <div class="foot__nav">
+                <ul class="paa__nav">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#article">ARTICLES</a></li>
+                    <li><a href="#sub">SUBSCRIBE</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </footer>
 
 
 
 
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
